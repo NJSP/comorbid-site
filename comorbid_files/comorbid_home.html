@@ -1,0 +1,108 @@
+
+<html lang="en">
+<head>
+    <title>Comorbid Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <center>    
+        <img src="./images/comorbid.png" alt="Comorbid Interactive" width="600" height="500">
+        <nav>
+            <table border="1">
+                <tr>
+                    <th><a href="comorbid_home.html" style="color: beige;">Home</a></th>
+                    <th><a href="games.html" style="color: beige;">Games</a></th>
+                    <th><a href="links.html" style="color: beige;">Links</a></th>
+                </tr>
+            </table>
+        </nav>
+        </center>
+    </header>
+
+<article>
+    <h1>What is Comorbid Interactive?</h1>
+    <p><pre>    Comorbid Interactive is an independent game studio formed in 2024 by N.J. Petrone.
+    I like to focus on creating games with an emotional and cerebral impact that stick 
+    with players long after they step away from the keyboard.</pre></p>
+
+    <h1> Who is N.J. Petrone?</h1>
+    <p><pre>    I'm an aspiring software engineer and indie game developer.
+    I started my journey in game dev in March of 2024 when I decided I 
+    needed a break from studying for the Comptia Security+ exam. In 
+    retrospect I probably took years off my life by trying to learn the 
+    fundamentals of cybersecurity while also learning how to navigate 
+    Unreal Engine and program in Blueprints, but I guess I just like
+    to push myself.
+    -----------------------------------------------------------
+    I've linked my Github and Itch.io pages in the 'Links' Tab. 
+    Please feel free to check them out!</pre></p>
+</article>
+
+<!--This table will eventually be set up to automatically update with future game jams.-->
+<section class="gamejamtable">
+    <center>
+    <table border="5">
+    <br>
+        <tr>
+            <th colspan="3">Upcoming Game Jams</th>
+        </tr>
+        <tr>
+            <th>Jam Name</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+        <tr>
+            <td>Scream Jam</td>
+            <td>Oct. 12</td>
+            <td>Oct. 22</td>
+        </tr>
+        <tr>
+            <td>GMTK Game Jam</td>
+            <td>Nov. 15</td>
+            <td>Nov. 22</td>
+        </tr>
+    </table>
+    </center>
+    <br>
+</section>
+
+ <!--This is the form for receiving feedback. I have not yet set up form.php so it's just a placeholder.--> 
+<article class="form">
+    <h2 style="color: beige;">Would you like to send feedback about a particular game?</h2>
+    <ul>
+        <form action="form.php" method="post">
+        <li><label for="firstlast">Name:</label>
+        <input type="text" name="fullname" id="firstlast"></li>
+        <li><label for="email">Email:</label>
+        <input type="text" name="email" id="email"></li>
+        <li><label for="birthdate">Birth Date:</label>
+        <input type="date" name="birthdate" id="birthdate"></li>
+        <li><label for="dropdown">Which game did you play?:</label>
+        <select name="games" id="games">
+            <option value="Carry The Light">Carry The Light</option>
+            <option value="Azrok and the Scepter of Light">Azrok and the Scepter of Light</option>
+        </select></li>
+        <li><label for="message">Message:</label>
+        <input type="textarea" name="message" id="message"></li>
+        <li><label for="box">Do you want to be notified of future developments?</label>
+        <input type="checkbox" name="box" id="box"></li>
+        </form>
+    </ul>
+    <input type="submit" value="submit">
+</article>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>

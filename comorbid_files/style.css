@@ -1,0 +1,60 @@
+header {
+    background-color: black;
+}
+
+
+body {
+    color: beige;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: larger;
+}
+
+
+h1 {
+    color: beige;
+}
+
+
+h2 {
+    color: black;
+}
+
+
+section {
+    background-color: beige;
+    color: black;
+    padding-left: 50;
+}
+
+
+article {
+    background-color: black;
+    color: beige;
+    padding-left: 50;
+}
+
+
+table {
+    background-color: black;
+    color: beige;
+}
+
+th {
+    width: 800;
+}
+
+.gamejamtable {
+    padding-left: 0;
+}
+
+
+.game1 {
+    display: flex; align-items: center;
+}
+
+
+.game2 {
+    display: flex; align-items: center;
+}
